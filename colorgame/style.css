@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(41, 38, 38);
+}
+.container{
+    background-color: rgb(41, 38, 38);
+   
+   
+}
+h1{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: x-large;
+     letter-spacing: 2px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+#colorDisplay{
+    background-color: whitesmoke;
+    
+    width: 450px;
+    color: black;
+    border-radius: 10px;
+    
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.streak-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    gap: 10px;
+}
+.streak-box{
+    border: 1px solid ;
+    border-radius: 6px;
+    background-color: dimgray;
+    text-align: center;
+    width: 140px;
+    
+}
+h3{
+    color: white;
+    font-size: 13px;
+}
+.streak-number{
+    color: cyan;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.controls{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+#newRoundBtn{
+    background-color: cyan;
+    border: 1px solid dimgray;
+    border-radius: 5px;
+    color: white;
+    height: 25px;
+    width: 90px;
+}
+#resetStreakBtn{
+    background-color: cyan;
+    border: 1px solid dimgray;
+    border-radius: 5px;
+    color: white;
+    height: 25px;
+    width: 90px;
+}
+#easyBtn{
+    background-color: dimgray;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 25px; 
+    width: 50px; 
+}
+#hardBtn{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    height: 25px;
+    width: 50px;  
+}
+#colorBoxContainer{
+    padding-top: 20px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 27vw;
+}
+.color-box{
+    display: flex;
+    border: 1px solid ;
+    height: 14vw;
+    width: 14vw;
+    border-radius: 10px;
+    
+}
